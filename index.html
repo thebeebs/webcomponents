@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <body>  
+      <fieldset>
+          <label>
+              <input type="radio" name="sector" value="martinb" data-bind="checked: chosenSector" />Martin Beeby          </label>
+          <label>
+              <input type="radio" name="sector" value="martink" data-bind="checked: chosenSector" />Martin Kearn
+          </label>
+      </fieldset>
+      
+<h1>Twitter Follows 2016-2020</h1>
+
+<sales-chart>    
+</sales-chart>
+<p>Here is a p tag that isn't a web componant</p>
+
+<sales-chart-1>     
+     <!-- ko foreach : monthsData -->
+     <graphpoint-1 data-bind="attr: {'value' : sales}">
+     </graphpoint-1>     
+     <!-- /ko -->
+</sales-chart-1>
+ 
+<table style="width:25%;">
+    <thead><tr><td>Year</td><td>Month</td><td>Followers in MM</td></thead>
+    <tbody data-bind="foreach: monthsData"><tr>
+        <td data-bind="text: year"></td>
+        <td data-bind="text: month"></td>
+        <td data-bind="text: sales"></td>
+    </tbody>
+</table>   
+    
+    <script src="bower_components/jquery/dist/jquery.js"> </script>
+    <script src="bower_components/knockout/dist/knockout.js"> </script>
+    <script src="index.js"></script> 
+    <script src="saleschart.js"> </script>
+    <script src="saleschart.1.js"> </script>
+    <script src="creategame-built.js"> </script>
+    <script src="saleschartfuture.js"></script>    
+  
+  </body>
+</html>
