@@ -1,7 +1,7 @@
 {
-  "name": "webcomponants",
+  "name": "webcomponents",
   "version": "0.0.1",
-  "description": "Tutorial: webcomponants",
+  "description": "Tutorial: webcomponents",
   "main": "index.js",
   "scripts": {
     "prestart": "browserify creategame.js -o creategame-built.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thebeebs/webcomponants"
+    "url": "https://github.com/thebeebs/webcomponents"
   },
   "keywords": [
-    "joomla"
+    "webcomponents"
   ],
   "author": "Martin Beeby <martinbeeby@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thebeebs/webcomponants/issues"
+    "url": "https://github.com/thebeebs/webcomponents/issues"
   },
   "homepage": "https://github.com/thebeebs/joomla",
   "dependencies": {
