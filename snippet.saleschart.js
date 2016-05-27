@@ -77,6 +77,6 @@ class graphpoint extends HTMLElement{
     
 }
 
-document.registerElement('sales-chart-1', chart);
-document.registerElement('graphpoint-1', graphpoint);
+document.registerElement('sales-chart', chart);
+document.registerElement('graphpoint', graphpoint);
 
