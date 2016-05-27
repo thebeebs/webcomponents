@@ -8,4 +8,3 @@ class salesChart extends HTMLElement{
     }    
 }
 document.registerElement('sales-chart', salesChart);
-
