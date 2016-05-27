@@ -1,4 +1,3 @@
-"use strict"
 class salesChart extends HTMLElement{
     createdCallback(){
          //var shadow = this.createShadowRoot();
